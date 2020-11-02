@@ -32,6 +32,6 @@ Is different, period.
 Another difference between the two is important because network load balancing cannot assure availability of the application, in other words, it can just correctly complete the three-way TCP handshake and an application load balancer goes much deeper, is capable of determining availability based on successful HTTP GET of a particular page.
 
 
-![loadbalanver.png](/images/loadbalancer.png) 
+![loadbalancer](loadbalancer.png) 
 
 
