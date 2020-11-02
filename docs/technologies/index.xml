@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologies on Project ONE</title>
+    <link>https://cleitontorres23.github.io/project-one.github.io/technologies/</link>
+    <description>Recent content in Technologies on Project ONE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Oct 2020 08:29:47 -0300</lastBuildDate>
+    
+	<atom:link href="https://cleitontorres23.github.io/project-one.github.io/technologies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Load Balancer</title>
+      <link>https://cleitontorres23.github.io/project-one.github.io/technologies/load-balancer/</link>
+      <pubDate>Sun, 18 Oct 2020 08:29:47 -0300</pubDate>
+      
+      <guid>https://cleitontorres23.github.io/project-one.github.io/technologies/load-balancer/</guid>
+      <description>Load balancer in Layer 4 and Layer 7
+This is the first of series of knowledge tops about technologies and stuffs. I hope you enjoy the journey.
+In technology, a load balancer distributes connections from clients between a set of servers . A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)
+one of the most important difference between Network layer and application layer is the algorithms in how they’re able to analyze incoming traffic.</description>
+    </item>
+    
+  </channel>
+</rss>

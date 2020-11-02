@@ -1,0 +1,5 @@
+baseURL = "https://cleitontorres23.github.io/project-one.github.io"
+languageCode = "en-us"
+title = "Project ONE"
+theme = "gohugo-theme-ananke"
+publishDir = "docs"
