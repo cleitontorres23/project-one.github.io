@@ -6,11 +6,17 @@ draft: false
 
 Load balancer in Layer 4 and Layer 7
 
-This is the first of series of knowledge tops about technologies and stuffs. I hope you enjoy the journey.
+This is the first of series of knowledge sequences about technologies and stuffs. I hope you enjoy the journey.
 
-In technology, a load balancer distributes connections from clients between a set of servers . A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)
+WHAT IS LOAD BALANCER?
 
-one of the most important difference between Network layer and application layer is the algorithms in how they’re able to analyze incoming traffic.
+In technology, a load balancer distributes connections from clients between a set of servers to provide the best possible application performance. A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)
+
+one of the most important difference between Network Load Balancer - L4 and Application Load Balancer - L7 is the number of layers who each one can reach.
+
+These differences is based on the various layers in the Open Systems Interconnection (OSI) Reference Model. An L4 load balancer works at the transport layer, using the TCP and UDP protocols to manage transaction traffic. An L7 load balancer works at the application layer (the highest layer in the OSI model, and makes its routing decisions based on more detailed information such as the characteristics of the HTTP/HTTPS header.
+
+![osi.jpg](/project-one.github.io/osi.jpg)
 
 Examples of network layer algorithms include: Round robin, Weighted round robin , Least connections, Weighted least connections , Source IP hash (we can talk about it later)
 

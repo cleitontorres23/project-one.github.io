@@ -18,9 +18,9 @@
       
       <guid>https://cleitontorres23.github.io/project-one.github.io/technologies/load-balancer/</guid>
       <description>Load balancer in Layer 4 and Layer 7
-This is the first of series of knowledge tops about technologies and stuffs. I hope you enjoy the journey.
-In technology, a load balancer distributes connections from clients between a set of servers . A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)
-one of the most important difference between Network layer and application layer is the algorithms in how they’re able to analyze incoming traffic.</description>
+This is the first of series of knowledge sequences about technologies and stuffs. I hope you enjoy the journey.
+WHAT IS LOAD BALANCER?
+In technology, a load balancer distributes connections from clients between a set of servers to provide the best possible application performance. A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)</description>
     </item>
     
   </channel>
