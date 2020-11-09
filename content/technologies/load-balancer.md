@@ -8,31 +8,40 @@ Load balancer in Layer 4 and Layer 7
 
 This is the first of series of knowledge sequences about technologies and stuffs. I hope you enjoy the journey.
 
+
 WHAT IS LOAD BALANCER?
 
-In technology, a load balancer distributes connections from clients between a set of servers to provide the best possible application performance. A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)
+Before starting talking about what Load Balancer is, let's talk about layers. 
 
-one of the most important difference between Network Load Balancer - L4 and Application Load Balancer - L7 is the number of layers who each one can reach.
+Layer is the OSI Model method to destribute and organize the application path to come up into your website.
 
-These differences is based on the various layers in the Open Systems Interconnection (OSI) Reference Model. An L4 load balancer works at the transport layer, using the TCP and UDP protocols to manage transaction traffic. An L7 load balancer works at the application layer (the highest layer in the OSI model, and makes its routing decisions based on more detailed information such as the characteristics of the HTTP/HTTPS header.
+This picture below shows you how is that works properly.
+
 
 ![osi.jpg](/project-one.github.io/osi.jpg)
 
-Examples of network layer algorithms include: Round robin, Weighted round robin , Least connections, Weighted least connections , Source IP hash (we can talk about it later)
 
-What is LAYER 4
-Based on traffic routing, such as IP address and destination ports . Considering layer 4 (TCP) and below. 
-Caring only about the network-layer information  contained within the packets it is directing this way and that
+Now you understand how the drill is, let's talk about Load Balancer. Load balancer as its name suggests it distributes (balance) all the connections (loads) from clients to the servers improving the application performance. A server load balancing (SLB) is designed for pools of application servers. One of the differences between Network Load Balancer(layer 4) and Application Load Balancer(layer 7) is the number of layers who each one can reach.
 
-What is LAYER 7
-Based on network traffic and HTTP protocol , from the network layer to the application layer.
-Provides the ability to route HTTP and HTTPS traffic based upon rules.
+A load balancer layer 4 works at the transport layer and only until there, using the TCP and UDP protocols to manage transaction traffic and the load balancer layer 7 works at until the top of application layer, it means that it can offer more funcionalities than layer 4.
 
-Long story short..
-Application Load Balancer works at the Application Layer (Layer 7 of the OSI model) and the network load balancer works at layers 3 & 4 (network and transport layers).
+
+Some examples of network layer algorithms include: Round robin, Weighted round robin , Least connections, Weighted least connections , source IP hash (we can talk about it later)
+
+Long story short about layer 4 and 7..
+
+SLB layer 4 is based on traffic routing, such as IP address and destination ports . Considering layer 4 (TCP) and below. 
+Caring only about the network-layer information in his package without check the inside content.
+
+
+SLB layer 7 is Based on network traffic and HTTP protocol , from the network layer to the application layer.
+
+One of the capacity of the Application Delivery Controller is provides the ability to route HTTP and HTTPS traffic based upon rules, checking inside the inside content of all packages, making this SLB more intelligent than others. 
+
 
 Is different, period.
 
-Another difference between the two is important because network load balancing cannot assure availability of the application, in other words, it can just correctly complete the three-way TCP handshake and an application load balancer goes much deeper, is capable of determining availability based on successful HTTP GET of a particular page.
+SLB Layer 7 provide you the possibility to make redirect base on URLs and headers, peculiar treatment for frequent
+clients and occasional visitors, Intelligent load balancing between application servers, firewalls
 
 ![loadbalancer.png](/project-one.github.io/loadbalancer.png)

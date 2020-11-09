@@ -20,7 +20,9 @@
       <description>Load balancer in Layer 4 and Layer 7
 This is the first of series of knowledge sequences about technologies and stuffs. I hope you enjoy the journey.
 WHAT IS LOAD BALANCER?
-In technology, a load balancer distributes connections from clients between a set of servers to provide the best possible application performance. A server load balancing (SLB)is designed for pools of application servers within a single site or local area network (LAN)</description>
+Before starting talking about what Load Balancer is, let&amp;rsquo;s talk about layers.
+Layer is the OSI Model method to destribute and organize the application path to come up into your website.
+This picture below shows you how is that works properly.</description>
     </item>
     
   </channel>

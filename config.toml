@@ -4,3 +4,11 @@ title = "Project ONE"
 theme = "gohugo-theme-ananke"
 publishDir = "docs"
 #staticDir = "static"
+
+ [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "https://github.com/cleitontorres23"
+
+[params]
+  github_username = "https://github.com/cleitontorres23"
