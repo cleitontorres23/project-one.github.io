@@ -4,7 +4,7 @@ date: 2020-11-07T10:57:09-03:00
 draft: false
 ---
 
-Load balancer in Layer 4 and Layer 7
+Load balancer in Layer 4, Layer 7 and Domain Name Load Balancer
 
 This is the first of series of knowledge sequences about technologies and stuffs. I hope you enjoy the journey.
 
@@ -45,3 +45,22 @@ SLB Layer 7 provide you the possibility to make redirect base on URLs and header
 clients and occasional visitors, Intelligent load balancing between application servers, firewalls
 
 ![loadbalancer.png](/project-one.github.io/loadbalancer.png)
+
+
+Domain Name System(DNS) Load Balancer 
+
+
+LBDN is short of Load Balancer Domain Name, working as dictionary with keys, where for each IP address is related to a name as 192.168.10.0 maps to 
+www.sre-l7.com.
+
+Lets figure out how this tech works
+
+Round robin, Weighted round robin, Least connections, Weighted least connections , Source IP hash are some exemples about 
+how load balancer works behind the courtain.
+
+
+Round-Robin Load Balancing
+
+Is a simple algoritm where manage request from clients to server (in a list) looping back and goes down sending always the nexts request to nexts 
+servers.  
+
